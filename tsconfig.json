@@ -10,13 +10,13 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true,
-    "exclude": [
-      "src/**/*.test.ts",
-      "src/**/*.spec.ts"
-    ],
-    "references": [
-      { "path": "./tsconfig.test.json" }
-    ]
-  }
+    "incremental": true
+  },
+  "exclude": [
+    "src/**/*.test.ts",
+    "src/**/*.spec.ts"
+  ],
+  "references": [
+    { "path": "./tsconfig.test.json" }
+  ]
 }
